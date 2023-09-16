@@ -1,0 +1,122 @@
+body { 
+    background-color: rgb(14, 14, 14);
+    margin: 0px;
+    position: 0;
+    
+}
+
+.gmail {
+    transition: 0.1s;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+
+
+.gmail:hover {
+    scale: 1.07;
+}
+
+.instagram {
+    transition: 0.1s;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+
+
+.instagram:hover {
+    scale: 1.07;
+}
+
+.discord {
+    transition: 0.1s;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+
+
+.discord:hover {
+    scale: 1.07;
+}
+
+
+.container-icons {
+    display: flex;
+    background-color: rgb(19, 19, 19);
+    
+    border-radius: 20px;
+    justify-content: center;
+    gap: 70px;
+    margin: 20px;
+    transform: translateY(250px);
+    
+    
+    
+}
+
+
+.container-but-header {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 10.4px;
+    
+
+}
+
+a {
+    text-decoration:none;
+}
+
+
+.home-but {
+    display: flex;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.1s;
+    
+    color: white;
+}
+.home-but:hover {
+    scale: 1.05;
+    text-decoration: underline;
+}
+
+
+
+.photos-but {
+    display: flex;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.1s;
+    color: white;
+    
+}
+.photos-but:hover {
+    scale: 1.05;
+    text-decoration: underline;
+}
+
+.contact-but {
+    display: flex;
+    font-size: 20.5px;
+    border-radius: 4px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.1s;
+    color: white;
+    text-decoration: underline;
+}
+.contact-but:hover {
+    scale: 1.05;
+    text-decoration: underline;
+}
